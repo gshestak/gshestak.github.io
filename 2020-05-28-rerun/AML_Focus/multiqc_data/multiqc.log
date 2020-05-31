@@ -1,0 +1,215 @@
+[2020-05-30 21:33:06,967] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/aburtsev/.local/lib/python3.6/site-packages/multiqc_config.yaml
+[2020-05-30 21:33:06,967] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/aburtsev/.multiqc_config.yaml
+[2020-05-30 21:33:06,968] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2020-05-30 21:33:06,968] multiqc                                            [DEBUG  ]  Command used: /home/aburtsev/.local/bin/multiqc /mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/AML_Focus/
+[2020-05-30 21:33:08,219] multiqc                                            [WARNING]  MultiQC Version v1.9 now available!
+[2020-05-30 21:33:08,221] multiqc                                            [INFO   ]  This is MultiQC v1.8
+[2020-05-30 21:33:08,224] multiqc                                            [DEBUG  ]  Command     : /home/aburtsev/.local/bin/multiqc /mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/AML_Focus/
+[2020-05-30 21:33:08,224] multiqc                                            [DEBUG  ]  Working dir : /home/aburtsev/projects/multiqc
+[2020-05-30 21:33:08,225] multiqc                                            [INFO   ]  Template    : default
+[2020-05-30 21:33:08,226] multiqc                                            [DEBUG  ]  Running Python 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+[2020-05-30 21:33:08,227] multiqc                                            [INFO   ]  Searching   : /mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/AML_Focus
+[2020-05-30 21:33:08,230] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dedup, damageprofiler, biobambam2, mtnucratio, picard, prokka, samblaster, samtools, sexdeterrmine, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, minionqc, mosdepth, clusterflow, bcl2fastq, interop, flash, seqyclean
+[2020-05-30 21:33:08,232] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpke_3sdut
+[2020-05-30 21:33:08,531] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-20_S18_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,531] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-20_S18_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,532] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-22_S19_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,532] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-22_S19_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,532] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-24_S20_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,533] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-24_S20_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,533] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-25_S21_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,533] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-25_S21_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,534] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-26_S22_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,534] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-26_S22_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,534] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-27_S23_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,535] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-27_S23_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,535] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-28_S24_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,535] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-28_S24_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,536] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-29_S25_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,536] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-29_S25_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,536] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-30_S26_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,537] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-30_S26_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,537] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-31_S27_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,537] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-31_S27_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,538] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-32_S28_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,538] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-32_S28_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,538] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-33_S29_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,539] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-33_S29_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,539] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-34_S30_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,539] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-18_S17_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,540] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-18_S17_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,540] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-37_S33_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,540] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-37_S33_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,541] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-38_S34_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,541] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-38_S34_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,541] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-39_S35_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,541] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-39_S35_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,542] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-40_S36_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,542] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-40_S36_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,542] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-41_S37_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,543] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-41_S37_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,543] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-42_S38_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,543] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-42_S38_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,544] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-43_S39_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,544] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-43_S39_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,544] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-44_S40_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,545] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-44_S40_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,545] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-45_S41_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,545] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-45_S41_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,546] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-46_S42_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,546] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-46_S42_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,546] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-47_S43_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,547] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-47_S43_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,547] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-48_S44_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,547] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-48_S44_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,547] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-34_S30_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,548] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-35_S31_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,548] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-35_S31_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,549] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-36_S32_L001_R1_001.fastq.gz
+[2020-05-30 21:33:08,549] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-36_S32_L001_R2_001.fastq.gz
+[2020-05-30 21:33:08,581] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-20_S18_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,582] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-20_S18_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,583] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-22_S19_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,584] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-22_S19_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,585] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-24_S20_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,587] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-24_S20_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,589] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-25_S21_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,591] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-25_S21_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,593] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-26_S22_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,595] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-26_S22_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,597] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-27_S23_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,599] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-27_S23_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,601] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-28_S24_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,603] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-28_S24_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,605] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-29_S25_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,606] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-29_S25_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,608] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-30_S26_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,610] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-30_S26_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,612] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-31_S27_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,614] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-31_S27_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,617] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-32_S28_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,618] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-32_S28_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,619] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-33_S29_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,620] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-33_S29_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,621] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-34_S30_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,622] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-18_S17_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,624] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-18_S17_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,625] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-37_S33_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,626] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-37_S33_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,627] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-38_S34_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,628] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-38_S34_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,629] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-39_S35_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,630] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-39_S35_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,631] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-40_S36_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,633] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-40_S36_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,634] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-41_S37_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,635] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-41_S37_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,636] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-42_S38_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,637] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-42_S38_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,638] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-43_S39_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,639] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-43_S39_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,640] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-44_S40_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,642] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-44_S40_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,643] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-45_S41_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,644] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-45_S41_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,645] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-46_S42_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,646] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-46_S42_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,647] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-47_S43_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,648] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-47_S43_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,649] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-48_S44_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,650] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-48_S44_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,651] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-34_S30_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,652] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-35_S31_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,653] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-35_S31_L001_R2_001_fastqc.html
+[2020-05-30 21:33:08,653] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-36_S32_L001_R1_001_fastqc.html
+[2020-05-30 21:33:08,654] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: AML-F-36_S32_L001_R2_001_fastqc.html
+[2020-05-30 21:33:09,149] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.1.1
+[2020-05-30 21:33:09,151] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.1.1
+[2020-05-30 21:33:09,153] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2020-05-30 21:33:09,158] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2020-05-30 21:33:09,163] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2020-05-30 21:33:09,167] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2020-05-30 21:33:09,172] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2020-05-30 21:33:09,180] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2020-05-30 21:33:09,186] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2020-05-30 21:33:09,191] multiqc                                            [DEBUG  ]  No samples found: quast
+[2020-05-30 21:33:09,196] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2020-05-30 21:33:09,200] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2020-05-30 21:33:09,205] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2020-05-30 21:33:09,216] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2020-05-30 21:33:09,221] multiqc                                            [DEBUG  ]  No samples found: busco
+[2020-05-30 21:33:09,226] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2020-05-30 21:33:09,230] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2020-05-30 21:33:09,235] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2020-05-30 21:33:09,247] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2020-05-30 21:33:09,252] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2020-05-30 21:33:09,258] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2020-05-30 21:33:09,262] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2020-05-30 21:33:09,267] multiqc                                            [DEBUG  ]  No samples found: happy
+[2020-05-30 21:33:09,273] multiqc                                            [DEBUG  ]  No samples found: homer
+[2020-05-30 21:33:09,278] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2020-05-30 21:33:09,282] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2020-05-30 21:33:09,287] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2020-05-30 21:33:09,294] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2020-05-30 21:33:09,299] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2020-05-30 21:33:09,304] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2020-05-30 21:33:09,309] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2020-05-30 21:33:09,314] multiqc                                            [DEBUG  ]  No samples found: fgbio
+[2020-05-30 21:33:09,318] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2020-05-30 21:33:09,325] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2020-05-30 21:33:09,341] multiqc                                            [DEBUG  ]  No samples found: biobambam2
+[2020-05-30 21:33:09,346] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
+[2020-05-30 21:33:09,349] multiqc                                            [DEBUG  ]  No samples found: picard
+[2020-05-30 21:33:09,353] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2020-05-30 21:33:09,359] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2020-05-30 21:33:09,366] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2020-05-30 21:33:09,371] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
+[2020-05-30 21:33:09,376] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2020-05-30 21:33:09,381] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2020-05-30 21:33:09,388] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2020-05-30 21:33:09,393] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2020-05-30 21:33:09,398] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2020-05-30 21:33:09,410] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2020-05-30 21:33:09,415] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2020-05-30 21:33:09,420] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2020-05-30 21:33:09,424] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2020-05-30 21:33:09,429] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2020-05-30 21:33:09,434] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2020-05-30 21:33:09,439] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2020-05-30 21:33:09,443] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2020-05-30 21:33:09,448] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2020-05-30 21:33:09,453] multiqc                                            [DEBUG  ]  No samples found: star
+[2020-05-30 21:33:09,458] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2020-05-30 21:33:09,462] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2020-05-30 21:33:09,467] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2020-05-30 21:33:09,471] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2020-05-30 21:33:09,476] multiqc                                            [DEBUG  ]  No samples found: kat
+[2020-05-30 21:33:09,480] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2020-05-30 21:33:09,485] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2020-05-30 21:33:09,490] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2020-05-30 21:33:09,495] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2020-05-30 21:33:09,501] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2020-05-30 21:33:09,509] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2020-05-30 21:33:09,519] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2020-05-30 21:33:09,526] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2020-05-30 21:33:09,534] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2020-05-30 21:33:09,539] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2020-05-30 21:33:09,544] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2020-05-30 21:33:09,549] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2020-05-30 21:33:13,555] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 56 reports
+[2020-05-30 21:33:14,119] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2020-05-30 21:33:14,124] multiqc                                            [DEBUG  ]  No samples found: mosdepth
+[2020-05-30 21:33:14,129] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2020-05-30 21:33:14,134] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2020-05-30 21:33:14,151] multiqc                                            [DEBUG  ]  No samples found: interop
+[2020-05-30 21:33:14,161] multiqc                                            [DEBUG  ]  No samples found: flash
+[2020-05-30 21:33:14,170] multiqc                                            [DEBUG  ]  No samples found: seqyclean
+[2020-05-30 21:33:14,308] multiqc                                            [INFO   ]  Compressing plot data
+[2020-05-30 21:33:15,095] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2020-05-30 21:33:15,096] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2020-05-30 21:33:15,098] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpke_3sdut/multiqc_data/multiqc_data.json' to '/home/aburtsev/projects/multiqc/multiqc_data'
+[2020-05-30 21:33:15,099] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpke_3sdut/multiqc_data/multiqc_fastqc.txt' to '/home/aburtsev/projects/multiqc/multiqc_data'
+[2020-05-30 21:33:15,137] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpke_3sdut/multiqc_data/multiqc_general_stats.txt' to '/home/aburtsev/projects/multiqc/multiqc_data'
+[2020-05-30 21:33:15,137] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpke_3sdut/multiqc_data/multiqc_qualimap_bamqc_genome_results.txt' to '/home/aburtsev/projects/multiqc/multiqc_data'
+[2020-05-30 21:33:15,138] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpke_3sdut/multiqc_data/multiqc_sources.txt' to '/home/aburtsev/projects/multiqc/multiqc_data'
+[2020-05-30 21:33:17,594] multiqc                                            [INFO   ]  MultiQC complete

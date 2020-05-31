@@ -1,0 +1,14 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	Semi-Saliva_S46_L001_R1_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/Semi-Saliva_S46_L001_R1_001_fastqc.zip
+FastQC	all_sections	Semi-Saliva_S46_L001_R2_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/Semi-Saliva_S46_L001_R2_001_fastqc.zip
+FastQC	all_sections	Semi-Blood_S45_L001_R1_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/Semi-Blood_S45_L001_R1_001_fastqc.zip
+FastQC	all_sections	Semi-Blood_S45_L001_R2_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/Semi-Blood_S45_L001_R2_001_fastqc.zip
+FastQC	all_sections	AM-1N1_S50_L001_R2_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AM-1N1_S50_L001_R2_001_fastqc.zip
+FastQC	all_sections	AC-1B1_S47_L001_R1_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AC-1B1_S47_L001_R1_001_fastqc.zip
+FastQC	all_sections	AC-1B1_S47_L001_R2_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AC-1B1_S47_L001_R2_001_fastqc.zip
+FastQC	all_sections	AD-1S1_S48_L001_R1_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AD-1S1_S48_L001_R1_001_fastqc.zip
+FastQC	all_sections	AL-1B1_S52_L001_R1_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AL-1B1_S52_L001_R1_001_fastqc.zip
+FastQC	all_sections	AL-1B1_S52_L001_R2_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AL-1B1_S52_L001_R2_001_fastqc.zip
+FastQC	all_sections	AM-1B1_S49_L001_R1_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AM-1B1_S49_L001_R1_001_fastqc.zip
+FastQC	all_sections	AM-1B1_S49_L001_R2_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AM-1B1_S49_L001_R2_001_fastqc.zip
+FastQC	all_sections	AM-1N1_S50_L001_R1_001	/mnt/d/200528_NDX550432_RUO_0008_AHCG7VAFX2/Alignment_1/20200529_131306/Fastq-merged/Angela/AM-1N1_S50_L001_R1_001_fastqc.zip
